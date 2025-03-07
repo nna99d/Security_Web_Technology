@@ -1,0 +1,37 @@
+input:required {
+    background-color: rgb(8, 187, 247);
+}
+
+input[type="radio"], input[type="checkbox"] {
+    background-color: transparent;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+form {
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(230, 228, 228);
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 80px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"] {
+    width: 300px;
+}
+
+button {
+    margin-top: 10px;
+}
