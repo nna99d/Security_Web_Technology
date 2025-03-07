@@ -1,0 +1,33 @@
+.header-admin {
+  height: 200px;
+}
+.banner-admin {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.content {
+  display: flex;
+  gap: 30px;
+}
+.content-left {
+  width: 20%;
+}
+.content-left form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  background-color: #ddd;
+}
+.content-right {
+  width: 80%;
+}
+.avatar-user {
+  height: 50px;
+  width: 50px;
+}
+.cart-view {
+  min-height: 200px;
+  width: 500px;
+}

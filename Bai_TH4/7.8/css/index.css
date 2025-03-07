@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  font-size: 20px;
+}
+.content-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.home-container,
+.login-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.incorrect-text {
+  margin-left: -263px;
+  padding: 0 10px;
+  color: red;
+}

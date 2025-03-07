@@ -1,0 +1,13 @@
+.img-left {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.left-container form {
+  background-color: #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

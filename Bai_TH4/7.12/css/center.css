@@ -1,0 +1,32 @@
+.content {
+  display: flex;
+  font-size: 20px;
+}
+.content-right {
+  width: 50%;
+  margin: 0 auto;
+}
+.content-right .register-result-container,
+.table-center-container,
+.calculate-container,
+.contact-container,
+.home-container,
+.loop-container,
+.calculate2-container,
+.total-score-container,
+.one-dimensional-array-container,
+.matrix-container,
+.associate-arr-container,
+.upload-container,
+.list-student-container,
+.add-student-container,
+.detail-student-container,
+.delete-student-container,
+.edit-student-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}

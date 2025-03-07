@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  justify-content: end;
+  background-image: url(./img/bien_que_toi.jpg);
+  padding: 10px;
+  height: 200px;
+}
+
+main {
+  display: flex;
+}
+
+.left {
+  width: 160px;
+  background-color:aquamarine;
+  height: calc(100vh - 50px);
+  flex-shrink: 0;
+}
+.right {
+  margin-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}

@@ -1,0 +1,27 @@
+.result-search {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  font-size: 20px;
+}
+.reuslt-left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reuslt-right {
+  width: 70%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 3px;
+}
+.infor-product-result {
+  padding: 10px 25px;
+  background-color: #ddd;
+}

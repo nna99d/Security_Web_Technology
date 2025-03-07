@@ -1,0 +1,66 @@
+p {
+  margin: 0;
+}
+.category-laptop,
+.online-business {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddd;
+}
+.title-category,
+.title-online-business {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.form-category,
+.online-business-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 20px;
+}
+.online-business-list,
+.images-laptop-advertising {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.online-business-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-width: 250px;
+}
+.business-text {
+  min-width: 87px;
+}
+.active-status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: rgb(242, 143, 242);
+  padding: 5px 10px;
+  border-radius: 3px;
+  min-width: 125px;
+}
+.icon-male,
+.icon-female {
+  font-size: 30px;
+}
+
+.icon-female {
+  color: orange;
+}
+.icon-smile-active-status-on {
+  color: yellow;
+}
+.image-laptop-advertising {
+  display: block;
+  width: 100%;
+  height: 200px;
+}

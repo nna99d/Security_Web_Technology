@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  justify-content: end;
+  background-image: url(./img/anh_bac.jpg);
+  padding: 10px;
+  height: 200px;
+}
+
+main {
+  display: flex;
+}
+
+.left {
+  width: 160px;
+  background-color:aquamarine;
+  height: calc(100vh - 50px);
+  flex-shrink: 0;
+}
+.right {
+  margin-left: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+td {
+  border: 1px solid black;
+}
+
+form#ar1Chieu input {
+  width: calc((100vw - 250px) / 10);
+}
+
+form#associateArray {
+  width: calc((100vw - 250px));
+}
+
+form#associateArray input {
+  width: calc(((100vw - 250px) / 2 - 20px) / 3);
+}

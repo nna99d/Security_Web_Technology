@@ -1,0 +1,15 @@
+.table-footer {
+  border-collapse: collapse;
+}
+
+.table-footer tr:nth-child(1) {
+  background: red;
+}
+
+.table-footer tr:nth-child(2) {
+  background: lightgreen;
+}
+
+.table-footer tr:nth-child(3) {
+  background: yellow;
+}

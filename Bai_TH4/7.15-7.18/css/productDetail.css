@@ -1,0 +1,16 @@
+.product-detail-container {
+  display: flex;
+}
+.img-laptop-detail {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-info {
+  width: 60%;
+}
+.img-laptop-detail .img-laptop {
+  width: 80%;
+  height: 80%;
+}

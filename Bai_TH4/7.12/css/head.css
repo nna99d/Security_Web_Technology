@@ -1,0 +1,30 @@
+body {
+  margin: 0 !important;
+}
+.header-container {
+  background-color: #ddd;
+}
+
+.img-header {
+  height: 200px;
+  width: 100%;
+}
+.pages {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.pages form input {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 0 0 10px gray;
+  cursor: pointer;
+}
+
+.pages form input:hover {
+  opacity: 0.8;
+}
