@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Nhập Liệu Hồ Sơ</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Nhập Thông Tin Hồ Sơ</h1>
+        <form id="hosoForm">
+            <!-- Mã hồ sơ -->
+            <div class="form-group">
+                <label for="maHoso">Mã hồ sơ:</label>
+                <input type="text" id="maHoso" name="maHoso" placeholder="VD: HS001" required>
+                <small id="maHosoError" class="error"></small>
+            </div>
+
+            <!-- Họ và Tên -->
+            <div class="form-group">
+                <label for="ten">Họ và Tên:</label>
+                <input type="text" id="ten" name="ten" placeholder="Họ và tên" required>
+                <small id="tenError" class="error"></small>
+            </div>
+
+            <!-- Ngày sinh -->
+            <div class="form-group">
+                <label for="ngaySinh">Ngày sinh:</label>
+                <input type="date" id="ngaySinh" name="ngaySinh" required>
+                <small id="ngaySinhError" class="error"></small>
+            </div>
+
+            <!-- Địa chỉ -->
+            <div class="form-group">
+                <label for="diaChi">Địa chỉ:</label>
+                <input type="text" id="diaChi" name="diaChi" placeholder="Địa chỉ" required>
+                <small id="diaChiError" class="error"></small>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="VD: abc@gmail.com" required>
+                <small id="emailError" class="error"></small>
+            </div>
+
+            <!-- Submit button -->
+            <div class="form-group">
+                <button type="submit">Lưu thông tin</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
