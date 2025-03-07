@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Nhập Liệu Lớp Học</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Nhập Thông Tin Lớp Học</h1>
+        <form id="lopForm">
+            <div class="form-group">
+                <label for="maLop">Mã lớp:</label>
+                <input type="text" id="maLop" name="maLop" placeholder="VD: L01" required>
+                <small id="maLopError" class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="tenLop">Tên lớp:</label>
+                <input type="text" id="tenLop" name="tenLop" placeholder="VD: Lớp 12A" required>
+                <small id="tenLopError" class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="giaoVien">Giáo viên chủ nhiệm:</label>
+                <input type="text" id="giaoVien" name="giaoVien" placeholder="Tên giáo viên" required>
+                <small id="giaoVienError" class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="soSinhVien">Số sinh viên:</label>
+                <input type="number" id="soSinhVien" name="soSinhVien" min="1" max="100" placeholder="Số lượng sinh viên" required>
+                <small id="soSinhVienError" class="error"></small>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Lưu thông tin</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
