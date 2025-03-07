@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Thành Viên</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <form id="registrationForm">
+        <label for="name">Họ tên:</label>
+        <input type="text" id="name" name="name" autofocus required><br>
+        <span id="nameError" class="error"></span><br>
+
+        <label for="address">Địa chỉ:</label>
+        <input type="text" id="address" name="address"><br>
+
+        <label>Giới tính:</label>
+        <input type="radio" name="gender" value="Nam" required>Nam
+        <input type="radio" name="gender" value="Nữ" required>Nữ<br>
+
+        <label for="birthdate">Ngày sinh:</label>
+        <input type="text" id="birthdate" name="birthdate" placeholder="dd/mm/yyyy" required><br>
+        <span id="birthdateError" class="error"></span><br>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" required><br>
+        <span id="emailError" class="error"></span><br>
+
+        <label for="phone">Điện thoại:</label>
+        <input type="text" id="phone" name="phone"><br>
+
+        <label>Khóa đăng ký:</label>
+        <input type="checkbox" id="english" name="course" value="Tiếng Anh">Tiếng Anh
+        <input type="checkbox" id="management" name="course" value="Quản trị">Quản trị
+        <input type="checkbox" id="it" name="course" value="CNTT">CNTT<br>
+
+        <label for="username">Tên sử dụng:</label>
+        <input type="text" id="username" name="username" required><br>
+        <span id="usernameError" class="error"></span><br>
+
+        <label for="password">Mật khẩu:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirmPassword">Gõ lại mật khẩu:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+        <span id="passwordError" class="error"></span><br>
+
+        <label for="notes">Ghi chú:</label>
+        <textarea id="notes" name="notes"></textarea><br>
+
+        <button type="submit">Chấp nhận</button>
+        <button type="reset">Bỏ qua</button>
+    </form>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
